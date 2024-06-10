@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #E58634, #A42BD7); /* Фиолетово-оранжевый градиент */
+}
+
+.containerr {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+   
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #DC4E41;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #DC4E41;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 500px;
+}
+
+button:hover {
+    background-color: #CA4328;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.8s;
+}
+
+#result:hover {
+    transform: translateY(-10px); /* Поднимаем результат на 10 пикселей при наведении */
+    background-color: #D5D5D5;
+}
+
+.day {
+    font-weight: bold;
+    color: #4285F4; /* Цвет в стиле Google */
+}
